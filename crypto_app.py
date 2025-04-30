@@ -9,7 +9,7 @@
 # 3. schedule taks 8 AM
 
 # importing libraries
-import smtplib # sending email
+import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
@@ -26,8 +26,8 @@ def send_mail(subject, html_body, file_name):
     # SendGrid credentials
     smtp_server = "smtp.sendgrid.net"
     smtp_port = 587
-    username = "apikey"  # literally "apikey"
-    password = "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"
+    username = "apikey"
+    password = "xxxxxxx" #enter your own api secret key
     sender_mail = "dev.gupta@mail.com"
     receiver_mail = "gupta55dev@gmail.com"
 
