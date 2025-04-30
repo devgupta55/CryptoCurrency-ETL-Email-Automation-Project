@@ -71,7 +71,7 @@ The project answers the question:
 📬 Below is a sample layout of the email (with table formatting):
 
 ![image](https://github.com/user-attachments/assets/f4927f82-e983-4bbc-9de5-b6633124cfb0)<br>
-[Check out the full email here](./Gmail-Top10CryptoCurrencytoInvestfor30-04-2025__17h37m25s)
+[Check out the full email here](./Gmail-Top10CryptoCurrencytoInvestfor30-04-2025__17h37m25s.pdf)
 
 ---
 
