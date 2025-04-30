@@ -41,12 +41,14 @@ The project answers the question:
 
 - The JSON is normalized using `pandas.json_normalize()` to create a structured DataFrame.
 - We select specific relevant columns such as:
-  - `name`
-  - `symbol`
-  - `cmc_rank`
-  - `quote.USD.price`
-  - `quote.USD.percent_change_24h`
-  - `quote.USD.market_cap`
+  - `id`
+  - `current_price`
+  - `market_cap`
+  - `price_change_percentage_24h`
+  - `high_24h`
+  - `low_24h`
+  - `ath`
+  - `atl`
 - Data is **sorted** based on 24-hour percentage change:
   - Top 10 gainers → `nlargest(10, 'percent_change_24h')`
   - Top 10 losers → `nsmallest(10, 'percent_change_24h')`
@@ -68,27 +70,15 @@ The project answers the question:
 
 📬 Below is a sample layout of the email (with table formatting):
 
-> _(Attach this image in your repo)_
-
-![Email Screenshot](assets/email_screenshot.png)
+![image](https://github.com/user-attachments/assets/f4927f82-e983-4bbc-9de5-b6633124cfb0)<br>
+[Check out the full email here](./Gmail-Top10CryptoCurrencytoInvestfor30-04-2025__17h37m25s)
 
 ---
 
-## 📁 Output Files
-
-📁 Files generated after running the script:
-
-- `crypto_report_<date>.csv` — full data of 200+ currencies
-- HTML table summary in the email body
-
-> _(Attach this image in your repo)_
+## 📁 Files generated after running the script:
 
 ![image](https://github.com/user-attachments/assets/37be5dd3-6bc7-4dc3-928f-b2fe1b59f83b)
 
 
 ---
-
-
-
-## 📂 Folder Structure
 
