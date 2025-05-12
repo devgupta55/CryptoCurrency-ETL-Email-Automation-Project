@@ -1,5 +1,6 @@
 # 📈 CryptoCurrency ETL & Email Automation Project 🚀
 ---
+<img src = 'https://github.com/user-attachments/assets/8b49fd41-4390-469e-a137-6c69a32f154f' width = '500' height = '300'>
 
 ## 📘 Project Overview
 
