@@ -27,7 +27,7 @@ The project answers the question:
 - **SendGrid** for email delivery (free tier)
 - **HTML/CSS** for formatted email body
 - **CoinMarketCap API** for cryptocurrency data
-- **schedule / cron** (optional) for automation
+- **schedule** for automation
 
 ---
 ## 🔄 ETL Workflow Explained
